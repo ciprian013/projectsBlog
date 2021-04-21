@@ -5,17 +5,21 @@
 }
 
 body{
+    font-family: 'Knewave', cursive;
+
     position: fixed;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
+    font-size: 62.5%;
 }
 
 a{
     text-decoration: none;
     display: inline;
     color: black;
+    align-self: center;
 }
 
 header{
@@ -41,4 +45,83 @@ header .bar-icons .bar-icons__container{
     justify-content: space-between;
     justify-self: end;
     margin-right: 50px;
+    margin-top: 3px;
+}
+
+header .bar-icons__container img{
+    width: 30px;
+    height: 30px;
+
+    /*Modificar tamaño de los iconos*/
+} 
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 90px;
+}
+
+nav .nav__logo{
+    display: flex;
+    margin-left: 50px;
+    align-content: center;
+}
+
+nav .nav__logo img{
+    width: 220px;
+}
+
+nav .profile-link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 50px;
+    font-size: 1.7rem;
+}
+ 
+nav .profile-link a {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+main{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+    height: 100vh;
+    background-image: url("/assets/images/john.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    
+}
+
+main .main__section-text {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: bold;
+    font-family: 'Knewave', cursive;
+    font-size: 1.8rem;
+}
+
+main .main__section-button{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+
+main .main__section-button button{
+    width: 100px;
+    height: 50px;
+    background-color: #47cfac;
+    border-radius: 5px;
+    border: 3px solid black;
+    font-family: 'Knewave', cursive;
+    transform: scale(1.1);
+
 }
