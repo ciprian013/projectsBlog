@@ -123,5 +123,31 @@ nav .profile-link a {
     border: 3px solid black;
     font-family: 'Knewave', cursive;
     transform: scale(1.1);
+}
 
+.main__blogs{
+    display: grid;
+}
+
+.blogs-news{
+    background-color:#e6e9ed ;
+    padding: 0 50px 40px;
+}
+.blogs-main-new{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 2fr;
+}
+.blogs-news-img{
+    grid-column: 1;
+}
+.blogs-news-img img{
+}
+
+.blogs-news-info{
+    grid-column: 2;
+}
+
+.blogs-news-info p{
+    margin-bottom: 35px;
 }
