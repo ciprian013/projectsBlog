@@ -84,7 +84,7 @@ nav .profile-link a {
     border-bottom: 1px solid black;
 }
 
-main{
+.main__index{
     display: grid;
     grid-template-rows: 1fr 3fr;
     height: 100vh;
@@ -96,7 +96,7 @@ main{
     
 }
 
-main .main__section-text {
+.main__index .main__section-text {
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -107,7 +107,7 @@ main .main__section-text {
     font-size: 1.8rem;
 }
 
-main .main__section-button{
+.main__index .main__section-button{
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -115,7 +115,7 @@ main .main__section-button{
 
 }
 
-main .main__section-button button{
+.main__index .main__section-button button{
     width: 100px;
     height: 50px;
     background-color: #47cfac;
