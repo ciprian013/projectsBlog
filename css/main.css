@@ -91,6 +91,9 @@ nav .profile-link a {
     color: black;
     border-bottom: 1px solid black;
 }
+.main__blog{
+    text-align: center;
+}
 
 .main__index{
     display: grid;
@@ -214,10 +217,11 @@ footer p{
 
 .main__blogpost-img{
     padding: 0 50px 40px;
+    text-align: center;
 }
 
 .main__blogpost-img img{
-    width: 100%;
+    width: 80%;
 }
 
 .blogpost-main{
@@ -230,5 +234,32 @@ footer p{
 }
 .blogpost-main article h1 {
     font-size: 35px;
+}
+
+.main__contact{
+    width: 100%;
+    min-height: 250px;
+    background-color: #e6e9ed;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.main__contact div{
+    display: inline-block;
+    width: 49.5%;
+    height: 100%;
+}
+
+.main__contact div a{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+
+.main__contact .contact-left,.contact-right {
+    text-align: initial;
+    margin-top: 85px;
+}
+.main__contact img{
+    width: 100px;
 }
 
